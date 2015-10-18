@@ -17,12 +17,10 @@ public class Stopper {
             System.out.println(algus);
             System.out.println("Sisesta 2 et lopetada");
             int sisestus2 = klaver.nextInt();
-        } else if (sisestus == 2);
-            double lopp = new Date().getTime();
-            System.out.println(lopp);
-        //DateFormat df = new SimpleDateFormat("HH 'hours', mm 'mins,' ss 'seconds'");
-        //System.out.println(df.format(vahe));
-            System.out.println((lopp - algus) / 1000 + " sekundit");
+        } else if (sisestus == 2) ;
+        double lopp = new Date().getTime();
+        System.out.println(lopp);
+        System.out.println((lopp - algus) / 1000 + " sekundit");
 
     }
 }
